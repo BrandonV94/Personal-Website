@@ -14,12 +14,6 @@ div h1{
     color: teal;
 }
 
-td{
-    text-align: center;
-    border: 1px solid black;
-    padding: 10px 50px;
-}
-
 li{
     background-color:black;
     font-size: 20px;
@@ -30,7 +24,33 @@ li{
     height: 50px;
     padding-top: 10px;
 }
+/* Class section */
+.container{ 
+    display: flex;
+}
 
+/* ID Section */
+#title{
+    text-align: center;
+}
+
+#navigation{
+    float: center;
+}
+
+/* Meida Section */
+img{
+    width: 244px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+video{
+    border: 2px solid black;
+    width: 410px;
+}
+
+/* Links Section */
 a:link{
     color: purple;
     text-decoration: none;
@@ -48,23 +68,4 @@ a:hover {
   
 a:active {
     text-decoration: underline;
-}
-
-img{
-    width: 244px;
-    height: 300px;
-    border-radius: 50%;
-}
-
-video{
-    border: 2px solid black;
-    width: 410px;
-}
-
-#title{
-    text-align: center;
-}
-
-#navigation{
-    float: center;
 }
