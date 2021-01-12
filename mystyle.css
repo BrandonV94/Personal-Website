@@ -3,8 +3,13 @@
 }
 
 body{
+    /*
+    Saving this color for later.
     background-color: rgba(21, 9, 131, 0.692);
+    */
+    background-color:rgba(235, 235, 235, 0.911);
     margin: 20px 60px;
+    min-width: 750px;
 }
 
 h1, a{
@@ -24,27 +29,32 @@ div h1{
 .button{
     background-color:rgb(29, 28, 28);
     border: 1px solid darkorchid;
+    padding-top: 10px;
     font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
     width: 356px;
     height: 50px;
-    padding-top: 10px;
-    flex-shrink: 1;
+    min-width: 140px;
+    flex-wrap: wrap;
+    flex-shrink: 2;
+    flex-grow: 2;
 }
+
 
 /* ID Section */
 #title{
     text-align: center;
+    background-color: rgb(29, 28, 28);
+    color: slateblue;
+    font-size: 50px;
+    height: 200px;
+    padding-top: 65px;
 }
 
 #navigation{
     float: center;
-}
-
-#wrap{
-    flex-wrap: wrap;
 }
 
 /* Meida Section */
